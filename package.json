@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/badrinath2002-lab/reactjsbot-by-badri.git",
+  "homepage": "https://github.com/badrinathbadri1/reactjsbot-by-badri.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
