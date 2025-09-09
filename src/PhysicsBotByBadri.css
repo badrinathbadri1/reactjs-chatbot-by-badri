@@ -21,7 +21,7 @@ body.dark {
   height: 85vh;
   border-radius: 10px;
   overflow: hidden;
-  padding-left:40px;
+  padding-left:15px;
   
  
 }
@@ -47,7 +47,7 @@ body.dark {
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
-  color:black;
+  color:rgb(187, 225, 187);
   height:50px;
   
 }
