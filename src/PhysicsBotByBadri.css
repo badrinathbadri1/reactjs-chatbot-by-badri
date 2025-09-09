@@ -1,0 +1,174 @@
+/* Global Theme Background */
+
+body.light {
+  background-color: #fff;
+  color: #000;
+}
+body.dark {
+  background-color: #013a47;
+  color: #fff;
+
+}
+
+/* Chat container */
+.chat-box {
+  width:auto;            /* width 80% ah set pannidum */
+  max-width:1100px;  
+  min-width: 200px;      /* max limit so bigger screen la extra stretch aagathu */
+  margin:40px  auto;       /* auto → centre align horizontally */
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-left:40px;
+  
+ 
+}
+
+/* Dark / Light background for chat */
+.chat-box.dark {
+  background-color: #524f4f22;
+  color: #fff;
+  
+  
+}
+
+.chat-box.light {
+  background-color: #f9f9f9;
+  color: black;
+}
+
+/* Header */
+.chat-header {
+  padding: 16px;
+  background-color: rgba(18, 18, 18, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  color:black;
+  height:50px;
+  
+}
+
+.chat-header h1 {
+  font-size: 18px;
+  margin:0;
+}
+
+.chat-header button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(227, 217, 217);
+  border:1.5px solid black;
+  color:rgb(25, 6, 239);
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.chat-header button:hover {
+  background-color: #ddd;
+}
+
+/* Messages container */
+.messages {
+  flex: 1;
+  padding: 12px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Individual messages */
+.message {
+  max-width: 70%;
+  padding: 10px 14px;
+  border-radius: 14px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.message.user {
+  background: linear-gradient(200deg,rgb(187, 225, 187), rgb(170, 247, 197));
+  color: black;
+  align-self: flex-end;
+  font-weight:700;
+  border-radius: 25px 0px  25px 25px;
+}
+
+.message.bot {
+
+  background: linear-gradient(100deg, hsl(228, 100%, 89%),rgb(212, 243, 255));
+  color: black;
+  align-self: flex-start;
+  
+  font-weight:bolder;
+  border-radius: 0px 25px  25px 25px;
+  
+  
+  
+  
+}
+
+/* Input area */
+.input-area {
+  display: flex;
+  gap: 10px;
+  padding:5px;
+  background-color:rgba(0, 0, 0, 0.0);
+  border-top: 1px solid rgba(45, 213, 188, 0.2);
+   height:45px;
+   color:white;
+}
+
+.input-area textarea {
+  flex: 1;
+  resize: none;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  font-size: 15px;
+  line-height: 1;
+  background-color:rgba(227, 233, 235, 0.9);
+  border:1.5px solid grey; 
+  color:black;
+  font-weight: 600;
+  font-family:sans-serif;
+   
+}
+
+.input-area button {
+  padding: 0px 20px 0px 20px;
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(120deg,#09a714, #0fb736, #098d94);
+  color: #fff;
+  font-weight:600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.input-area button:hover {
+  background-color: #357ab8;
+}
+
+/* Scrollbar neat style */
+.messages::-webkit-scrollbar {
+  width:6px;
+  
+}
+.messages::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+.messages::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+firstLawPatterns{
+  font-weight: bold;
+}
