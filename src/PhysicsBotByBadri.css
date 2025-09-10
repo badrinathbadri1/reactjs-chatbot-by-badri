@@ -28,7 +28,7 @@ body.dark {
 
 /* Dark / Light background for chat */
 .chat-box.dark {
-  background-color: #524f4f22;
+  background-color:#013a47;
   color: #fff;
   
   
@@ -47,7 +47,8 @@ body.dark {
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
-  background: linear-gradient(120deg,#09a714, #0fb736, #098d94);
+  color:rgb(33, 119, 225);
+  background-color: rgba(0, 0, 0, 0);
   height:50px;
   
 }
@@ -105,7 +106,7 @@ body.dark {
 
 .message.bot {
 
-  background: linear-gradient(100deg, hsl(228, 100%, 89%),rgb(212, 243, 255));
+  background: linear-gradient(120deg,rgb(184, 214, 247), rgb(214, 197, 255), #f9b9f9);
   color: black;
   align-self: flex-start;
   
@@ -153,7 +154,7 @@ body.dark {
   width:45px;
   border: none;
   border-radius:100px;
-  background: linear-gradient(120deg,#09a714, #0fb736, #098d94);
+  background: linear-gradient(120deg,rgb(25, 4, 251), rgb(82, 16, 236), #bb03bb);
   color: #fff;
   font-weight:600;
   cursor: pointer;
@@ -161,7 +162,7 @@ body.dark {
 }
 
 .input-area button:hover {
-  background: linear-gradient(120deg,#079311, #0eaa33, #08888f);
+  background: linear-gradient(120deg,#26ae2f, #14a736, #0bb9c2);
 }
 
 /* Scrollbar neat style */
