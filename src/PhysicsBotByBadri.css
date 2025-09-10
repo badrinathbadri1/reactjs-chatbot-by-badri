@@ -42,12 +42,12 @@ body.dark {
 /* Header */
 .chat-header {
   padding: 16px;
-  background-color: rgba(18, 18, 18, 0);
+  background-color: rgba(0, 0, 0, 0);
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
-  color:rgba(158, 251, 158, 1);
+  background: linear-gradient(120deg,#09a714, #0fb736, #098d94);
   height:50px;
   
 }
@@ -100,7 +100,7 @@ body.dark {
   font-weight:700;
   border-radius: 25px 0px  25px 25px;
   transition:all 0.5s ease-in-out ;
-  font-size: 12.5px;
+  font-size:14px;
 }
 
 .message.bot {
@@ -112,7 +112,7 @@ body.dark {
   font-weight:bolder;
   border-radius: 0px 25px  25px 25px;
   transition:all 0.5s ease-in-out ;
-  font-size: 12.5px;
+  font-size:14px;
   
   
   
@@ -143,6 +143,7 @@ body.dark {
   color:black;
   font-weight:600;
   font-family:sans-serif;
+  text-align: center;
    
 }
 
@@ -160,7 +161,7 @@ body.dark {
 }
 
 .input-area button:hover {
-  background: linear-gradient(120deg,#079311, #0ca22f, #08888f);
+  background: linear-gradient(120deg,#079311, #0eaa33, #08888f);
 }
 
 /* Scrollbar neat style */
