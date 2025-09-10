@@ -1,7 +1,7 @@
 /* Global Theme Background */
 
 body.light {
-  background-color: #fff;
+  background-color:white;
   color: #000;
 }
 body.dark {
@@ -35,7 +35,7 @@ body.dark {
 }
 
 .chat-box.light {
-  background-color: #f9f9f9;
+  background-color: white;
   color: black;
 }
 
@@ -47,7 +47,7 @@ body.dark {
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
-  color:rgb(187, 225, 187);
+  color:rgba(158, 251, 158, 1);
   height:50px;
   
 }
@@ -61,12 +61,12 @@ body.dark {
   padding: 6px 14px;
   border: none;
   border-radius: 8px;
-  background-color: rgb(227, 217, 217);
-  border:1.5px solid black;
+  background-color: rgba(244, 235, 235, 1);
+  border:1.2px solid black;
   color:rgb(25, 6, 239);
   font-weight: bold;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition:all 0.5s ease-in-out ;
 }
 
 .chat-header button:hover {
@@ -81,6 +81,7 @@ body.dark {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  
 }
 
 /* Individual messages */
@@ -98,6 +99,7 @@ body.dark {
   align-self: flex-end;
   font-weight:700;
   border-radius: 25px 0px  25px 25px;
+  transition:all 0.5s ease-in-out ;
 }
 
 .message.bot {
@@ -108,6 +110,7 @@ body.dark {
   
   font-weight:bolder;
   border-radius: 0px 25px  25px 25px;
+  transition:all 0.5s ease-in-out ;
   
   
   
@@ -128,24 +131,25 @@ body.dark {
 .input-area textarea {
   flex: 1;
   resize: none;
-  padding: 10px;
-  border-radius: 8px;
+  padding:7px;
+  border-radius:12px;
   border: 1px solid #bbb;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1;
   background-color:rgba(227, 233, 235, 0.9);
-  border:1.5px solid grey; 
+  border:1px solid grey; 
   color:black;
-  font-weight: 600;
+  font-weight:600;
   font-family:sans-serif;
    
 }
 
 .input-area button {
-  padding: 0px 20px 0px 20px;
-  height: 45px;
+  padding: 0px 10px 0px 10px;
+  height:35px;
+  width:35px;
   border: none;
-  border-radius: 8px;
+  border-radius:100px;
   background: linear-gradient(120deg,#09a714, #0fb736, #098d94);
   color: #fff;
   font-weight:600;

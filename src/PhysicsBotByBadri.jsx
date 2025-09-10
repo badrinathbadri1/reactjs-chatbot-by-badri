@@ -300,7 +300,7 @@ export default function PhysicsBotByBadri() {
           onKeyDown={handleKeyDown}
           placeholder="Search about Reactjs..."
         />
-        <button onClick={handleSend}>Send</button>
+        <button onClick={handleSend}>➤</button>
       </div>
     </div>
   );
