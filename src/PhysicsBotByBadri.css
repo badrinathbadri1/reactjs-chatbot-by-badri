@@ -61,7 +61,7 @@ body.dark {
   padding: 6px 14px;
   border: none;
   border-radius: 8px;
-  background-color: rgba(244, 235, 235, 1);
+  background-color: rgb(246, 240, 240);
   border:1.2px solid black;
   color:rgb(25, 6, 239);
   font-weight: bold;
@@ -100,6 +100,7 @@ body.dark {
   font-weight:700;
   border-radius: 25px 0px  25px 25px;
   transition:all 0.5s ease-in-out ;
+  font-size: 12.5px;
 }
 
 .message.bot {
@@ -111,6 +112,7 @@ body.dark {
   font-weight:bolder;
   border-radius: 0px 25px  25px 25px;
   transition:all 0.5s ease-in-out ;
+  font-size: 12.5px;
   
   
   
@@ -120,7 +122,7 @@ body.dark {
 /* Input area */
 .input-area {
   display: flex;
-  gap: 10px;
+  gap:5px;
   padding:5px;
   background-color:rgba(0, 0, 0, 0.0);
   border-top: 1px solid rgba(45, 213, 188, 0.2);
@@ -132,9 +134,9 @@ body.dark {
   flex: 1;
   resize: none;
   padding:7px;
-  border-radius:12px;
+  border-radius:25px;
   border: 1px solid #bbb;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1;
   background-color:rgba(227, 233, 235, 0.9);
   border:1px solid grey; 
@@ -146,8 +148,8 @@ body.dark {
 
 .input-area button {
   padding: 0px 10px 0px 10px;
-  height:35px;
-  width:35px;
+  height:45px;
+  width:45px;
   border: none;
   border-radius:100px;
   background: linear-gradient(120deg,#09a714, #0fb736, #098d94);
@@ -158,7 +160,7 @@ body.dark {
 }
 
 .input-area button:hover {
-  background-color: #357ab8;
+  background: linear-gradient(120deg,#079311, #0ca22f, #08888f);
 }
 
 /* Scrollbar neat style */
