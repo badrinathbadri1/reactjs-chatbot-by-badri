@@ -12,10 +12,10 @@ body.dark {
 
 /* Chat container */
 .chat-box {
-  width:auto;            /* width 80% ah set pannidum */
+  width:auto;            
   max-width:1100px;  
-  min-width: 200px;      /* max limit so bigger screen la extra stretch aagathu */
-  margin:40px  auto;       /* auto → centre align horizontally */
+  min-width: 200px;     
+  margin:40px  auto;       
   display: flex;
   flex-direction: column;
   height: 85vh;
@@ -95,14 +95,20 @@ body.dark {
 }
 
 .message.user {
-  background: linear-gradient(200deg,rgb(187, 225, 187), rgb(170, 247, 197));
+  background: linear-gradient(200deg, rgb(187, 225, 187), rgb(170, 247, 197));
   color: black;
   align-self: flex-end;
-  font-weight:700;
-  border-radius: 25px 0px  25px 25px;
-  transition:all 0.5s ease-in-out ;
-  font-size:14px;
+  font-weight: 500;
+  border-radius: 25px 0px 25px 25px;
+  transition: all 0.5s ease-in-out;
+  font-size: 16px;
+  max-width: 150px;   
+  word-wrap: break-word; 
+  white-space: normal;  
+  display: inline-block; 
+  padding: 8px 12px;     
 }
+
 
 .message.bot {
 
@@ -110,10 +116,10 @@ body.dark {
   color: black;
   align-self: flex-start;
   
-  font-weight:bolder;
+  font-weight:600;
   border-radius: 0px 25px  25px 25px;
   transition:all 0.5s ease-in-out ;
-  font-size:14px;
+  font-size:16px;
   
   
   
@@ -137,14 +143,15 @@ body.dark {
   padding:7px;
   border-radius:25px;
   border: 1px solid #bbb;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   background-color:rgba(227, 233, 235, 0.9);
   border:1px solid grey; 
   color:black;
   font-weight:600;
   font-family:sans-serif;
-  text-align: center;
+  padding-top: 15px;
+
    
 }
 
@@ -161,18 +168,19 @@ body.dark {
   transition: 0.3s ease;
 }
 
-.input-area button:hover {
-  background: linear-gradient(120deg,#26ae2f, #14a736, #0bb9c2);
+.input-area button:hover{
+    background: linear-gradient(120deg,rgb(31, 17, 188),rgb(40, 7, 119) #9e039e);
 }
 
 /* Scrollbar neat style */
 .messages::-webkit-scrollbar {
-  width:6px;
+  width:2px;
   
 }
 .messages::-webkit-scrollbar-thumb {
   background-color: #888;
   border-radius: 4px;
+  
 }
 .messages::-webkit-scrollbar-thumb:hover {
   background-color: #555;
